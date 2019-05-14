@@ -3,7 +3,7 @@
 ### Plan
 1. Talk about Working directory,Staged Area and Local Repository.
 
-![git workflow](./master/images/git1.png)
+![git workflow](./images/git1.png)
 #### Example
 ``` 
 git init gittest   // initialising repository
