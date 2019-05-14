@@ -1,9 +1,9 @@
 # Git in action: CLI
 
 ### Plan
-1. Explain what is Working directory,Staged Area and Local Repository  addressing and it's importance and explain  how the work flow is being taken place.
+1. Talk about Working directory,Staged Area and Local Repository.
 
-![git workflow](https://github.com/vds-tanuj4567/test-git/tree/master/images/git1.png)
+![git workflow](./master/images/git1.png)
 #### Example
 ``` 
 git init gittest   // initialising repository
@@ -50,14 +50,14 @@ git stash -u       // store state of the untracked file
 ```
 7. Explaining the need of merging and pros and cons of doing it.
 
-![ merge ](https://github.com/vds-tanuj4567/test-git/tree/master/images/git2.png)
+![ merge ](./images/git2.png)
 
 ```
 git merge branch1 branch2  // merging two branches
 ```
 8. Explain the need of rebase, pros and cons and compare merge and rebase.
 
-![ rebase ](https://github.com/vds-tanuj4567/test-git/tree/master/images/rebase.png)
+![ rebase ](./images/rebase.png)
 
 ```
 git rebase source target  // similar to merging but to use another branch as the new base for your work.
